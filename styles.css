@@ -1,0 +1,99 @@
+body { 
+    background-color: aquamarine;
+    color:rgb(70, 71, 171)
+
+}
+
+p{
+    color: purple;
+}
+
+li{
+    color: dark blue;
+}
+
+h1{
+    color: rgb(72, 41, 156);
+}
+
+
+footer{
+    color:blueviolet
+}
+
+div{ 
+        font-family: "Bigelow Rules", serif;
+        font-weight: 400;
+        font-style: oblique;
+        font-size: x-large;
+}
+
+h3{
+        font-family: "Bigelow Rules", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large
+}
+
+section{ 
+    font-family: "Bigelow Rules", serif;
+        font-weight: 400;
+        font-style: normal;  
+        font-size: xx-large; 
+}
+      
+p{
+    line-height:3;
+}
+
+h1,h2,h3{
+    text-align:center;
+}
+
+/*parent + space + nested child(target) */
+ol li{
+    text-align:left;
+}
+
+ul li{
+text-align:center;
+}
+
+span{
+    color:purple
+}
+
+main h4{
+    text-decoration:underline;
+}
+
+ol:hover{
+    text-decoration:underline;
+}
+
+
+a:hover{
+    text-decoration:wavy;
+}
+
+h4{
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+h5:hover{
+    font-size:xx-large;
+    text-decoration:underline;
+}
+
+section h6{
+    text-align:center;
+    font-size:48px;
+}
+
+
+
+
