@@ -1,0 +1,27 @@
+<!DOCTYPE html/>
+<html lang="en">
+    <head>
+     <title>Dark Fantasy Photos</title>
+       <meta charset="utf8">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Shojumaru&family=Tiny5&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+        <section>
+            <header>Dark Fantasy Photos</header>
+        <ol>
+<li> <img src="photoswesite/clown.jpg" alt="photo of Karo" width="500" height="400" />
+
+</li>
+
+<li> </li>
+
+        </ol>
+
+
+
+</section>
+
+
+    </body>

@@ -97,7 +97,7 @@ section h6{
 section h6{
     margin: 50px 100px;
     padding: 20px 20px;
-    border: 10px solid blueviolet;
+    border-top: 10px solid blueviolet;
 }
 
 .footer-paragraph{
@@ -113,3 +113,18 @@ border:20px;
 *{
     box-sizing:border-box;
 }
+
+ul li{
+    padding:40px;
+    border:40px;
+}
+
+ol li{
+    padding:40px;
+    border:40px;
+}
+
+h5{
+    margin-top:10px;
+}
+
