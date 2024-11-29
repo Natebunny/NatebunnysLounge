@@ -73,7 +73,7 @@ ol:hover{
 
 
 a:hover{
-    text-decoration:wavy;
+    text-decoration:underline;
 }
 
 h4{
@@ -92,21 +92,18 @@ h5:hover{
 section h6{
     text-align:center;
     font-size:48px;
-}
-
-section h6{
     margin: 50px 100px;
     padding: 20px 20px;
     border-top: 10px solid blueviolet;
 }
 
 .footer-paragraph{
-width:10%;
-height:20%;
+width:50%;
+height:50%;
 }
 
 #random-photo-select{
-padding:10px;
+padding:40px;
 border:20px;
 }
 
@@ -125,6 +122,26 @@ ol li{
 }
 
 h5{
-    margin-top:10px;
+    padding:40px;
+    border:40px;
+    margin-top:40px;
 }
 
+header{
+background-image:url("./images/marshmellow.jpg");
+background-position:0 auto;
+}
+
+h2{
+    background-image:url("./images/marshmellow.jpg");
+    max-width:100%;
+    height:60px;   
+}
+
+.banner{
+    height:350px;
+    background-image:url("./images/marshmellow.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
