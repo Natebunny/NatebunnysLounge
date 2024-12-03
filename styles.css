@@ -29,6 +29,10 @@ div{
         font-size: x-large;
 }
 
+h1 h2 h3{
+    text-align:center;
+}
+
 h3{
         font-family: "Bigelow Rules", serif;
         font-weight: 400;
@@ -41,14 +45,6 @@ section{
         font-weight: 400;
         font-style: normal;  
         font-size: xx-large; 
-}
-      
-p{
-    line-height:3;
-}
-
-h1 h2 h3{
-    text-align:center;
 }
 
 /*parent + space + nested child(target) */
@@ -66,9 +62,6 @@ section h6{
     text-align:center;
 }
 
-span{
-    color:purple
-}
 
 main h4{
     text-decoration:underline;
@@ -140,6 +133,10 @@ h2{
 
 footer{
     color:blueviolet
+}
+
+p{
+    line-height:3;
 }
 
 .footer-paragraph{
