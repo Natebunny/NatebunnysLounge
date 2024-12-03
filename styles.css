@@ -9,8 +9,12 @@ header{
     background-position:0 auto;
 }
 
-p{
-    color: purple;
+.banner{
+    height:350px;
+    background-image:url("./images/marshmellow.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
 }
 
 li{
@@ -29,6 +33,12 @@ div{
         font-size: x-large;
 }
 
+h2{
+    background-image:url("./images/marshmellow.jpg");
+    max-width:100%;
+    height:60px;   
+}
+
 h1 h2 h3{
     text-align:center;
 }
@@ -40,7 +50,7 @@ h3{
         font-size: xx-large
 }
 
-section{ 
+section h4{ 
     font-family: "Bigelow Rules", serif;
         font-weight: 400;
         font-style: normal;  
@@ -49,9 +59,17 @@ section{
 
 /*parent + space + nested child(target) */
 h4 ol li{
+    text-decoration:underline;
     text-align:left;
     padding:40px;
     border:40px;
+}
+
+h4{
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 ul li{
@@ -60,11 +78,6 @@ text-align:center;
 
 section h6{
     text-align:center;
-}
-
-
-main h4{
-    text-decoration:underline;
 }
 
 ol:hover{
@@ -76,17 +89,16 @@ a:hover{
     text-decoration:underline;
 }
 
-h4{
-    margin-left: 50px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
 
 h5:hover{
     font-size:xx-large;
     text-decoration:underline;
+}
+
+h5{
+    padding:40px;
+    border:40px;
+    margin-top:40px;
 }
 
 section h6{
@@ -109,34 +121,13 @@ ul li{
     border:40px;
 }
 
-
-h5{
-    padding:40px;
-    border:40px;
-    margin-top:40px;
-}
-
-
-h2{
-    background-image:url("./images/marshmellow.jpg");
-    max-width:100%;
-    height:60px;   
-}
-
-.banner{
-    height:350px;
-    background-image:url("./images/marshmellow.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
 footer{
     color:blueviolet
 }
 
 p{
     line-height:3;
+    color: purple;
 }
 
 .footer-paragraph{
