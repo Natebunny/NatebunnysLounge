@@ -1,12 +1,18 @@
 body { 
     background-color: aquamarine;
-    color:rgb(70, 71, 171)
-
 }
 
 header{
     background-image:url("./images/marshmellow.jpg");
     background-position:0 auto;
+}
+
+.banner{
+    height:350px;
+    background-image:url("./images/marshmellow.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
 }
 
 li{
@@ -98,7 +104,6 @@ section h6{
     font-size:48px;
     margin: 50px 100px;
     padding: 20px 20px;
-    border-top: 10px solid blueviolet;
 }
 
 
@@ -120,14 +125,6 @@ footer{
 p{
     line-height:3;
     color: purple;
-}
-
-.banner{
-    height:350px;
-    background-image:url("./images/marshmellow.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
 }
 
 .footer-paragraph{
