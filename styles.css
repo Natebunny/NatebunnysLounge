@@ -4,6 +4,11 @@ body {
 
 }
 
+header{
+    background-image:url("./images/marshmellow.jpg");
+    background-position:0 auto;
+}
+
 p{
     color: purple;
 }
@@ -16,10 +21,6 @@ h1{
     color: rgb(72, 41, 156);
 }
 
-
-footer{
-    color:blueviolet
-}
 
 div{ 
         font-family: "Bigelow Rules", serif;
@@ -103,19 +104,12 @@ section h6{
     border-top: 10px solid blueviolet;
 }
 
-.footer-paragraph{
-width:50%;
-height:50%;
-}
 
 #random-photo-select{
 padding:40px;
 border:20px;
 }
 
-*{
-    box-sizing:border-box;
-}
 
 ul li{
     padding:40px;
@@ -129,10 +123,6 @@ h5{
     margin-top:40px;
 }
 
-header{
-background-image:url("./images/marshmellow.jpg");
-background-position:0 auto;
-}
 
 h2{
     background-image:url("./images/marshmellow.jpg");
@@ -147,3 +137,12 @@ h2{
     background-repeat:no-repeat;
     background-position:center;
 }
+
+footer{
+    color:blueviolet
+}
+
+.footer-paragraph{
+    width:50%;
+    height:50%;
+    }
