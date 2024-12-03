@@ -46,13 +46,15 @@ p{
     line-height:3;
 }
 
-h1,h2,h3{
+h1 h2 h3{
     text-align:center;
 }
 
 /*parent + space + nested child(target) */
 ol li{
     text-align:left;
+    padding:40px;
+    border:40px;
 }
 
 ul li{
@@ -120,10 +122,6 @@ ul li{
     border:40px;
 }
 
-ol li{
-    padding:40px;
-    border:40px;
-}
 
 h5{
     padding:40px;
