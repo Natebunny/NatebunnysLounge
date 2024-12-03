@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../DarkFantasy"
+		},
+		{
+			"path": "../../../Landscape"
+		},
+		{
+			"path": "../../../Model"
+		}
+	],
+	"settings": {}
+}
