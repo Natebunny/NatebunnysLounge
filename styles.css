@@ -1,18 +1,11 @@
 body { 
     background-color: aquamarine;
+    color:rgb(70, 71, 171)
+
 }
 
-header{
-    background-image:url("./images/marshmellow.jpg");
-    background-position:0 auto;
-}
-
-.banner{
-    height:350px;
-    background-image:url("./images/marshmellow.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
+p{
+    color: purple;
 }
 
 li{
@@ -24,21 +17,15 @@ h1{
 }
 
 
+footer{
+    color:blueviolet
+}
+
 div{ 
         font-family: "Bigelow Rules", serif;
         font-weight: 400;
         font-style: oblique;
         font-size: x-large;
-}
-
-h2{
-    background-image:url("./images/marshmellow.jpg");
-    max-width:100%;
-    height:60px;   
-}
-
-h1 h2 h3{
-    text-align:center;
 }
 
 h3{
@@ -48,26 +35,26 @@ h3{
         font-size: xx-large
 }
 
-section h4{ 
+section{ 
     font-family: "Bigelow Rules", serif;
         font-weight: 400;
         font-style: normal;  
         font-size: xx-large; 
 }
+      
+p{
+    line-height:3;
+}
+
+h1 h2 h3{
+    text-align:center;
+}
 
 /*parent + space + nested child(target) */
-h4 ol li{
-    text-decoration:underline;
+ol li{
     text-align:left;
     padding:40px;
     border:40px;
-}
-
-h4{
-    margin-left: 50px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 100px;
 }
 
 ul li{
@@ -76,6 +63,14 @@ text-align:center;
 
 section h6{
     text-align:center;
+}
+
+span{
+    color:purple
+}
+
+main h4{
+    text-decoration:underline;
 }
 
 ol:hover{
@@ -87,16 +82,17 @@ a:hover{
     text-decoration:underline;
 }
 
+h4{
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 
 h5:hover{
     font-size:xx-large;
     text-decoration:underline;
-}
-
-h5{
-    padding:40px;
-    border:40px;
-    margin-top:40px;
 }
 
 section h6{
@@ -104,30 +100,50 @@ section h6{
     font-size:48px;
     margin: 50px 100px;
     padding: 20px 20px;
+    border-top: 10px solid blueviolet;
 }
 
+.footer-paragraph{
+width:50%;
+height:50%;
+}
 
 #random-photo-select{
 padding:40px;
 border:20px;
 }
 
+*{
+    box-sizing:border-box;
+}
 
 ul li{
     padding:40px;
     border:40px;
 }
 
-footer{
-    color:blueviolet
+
+h5{
+    padding:40px;
+    border:40px;
+    margin-top:40px;
 }
 
-p{
-    line-height:3;
-    color: purple;
+header{
+background-image:url("./images/marshmellow.jpg");
+background-position:0 auto;
 }
 
-.footer-paragraph{
-    width:50%;
-    height:50%;
-    }
+h2{
+    background-image:url("./images/marshmellow.jpg");
+    max-width:100%;
+    height:60px;   
+}
+
+.banner{
+    height:350px;
+    background-image:url("./images/marshmellow.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
