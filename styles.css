@@ -52,13 +52,13 @@ h1 h2 h3{
 }
 
 /*parent + space + nested child(target) */
-ol > li{
+h4 ol li{
     text-align:left;
     padding:40px;
     border:40px;
 }
 
-ul > li{
+ul li{
 text-align:center;
 }
 
@@ -111,7 +111,7 @@ border:20px;
 }
 
 
-ul > li{
+ul li{
     padding:40px;
     border:40px;
 }
